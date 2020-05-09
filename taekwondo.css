@@ -1,0 +1,1066 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft yahei";
+	text-align: center;
+	font-size:18px;
+}
+
+
+/*web-font*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?ch1nlz');
+  src:  url('fonts/icomoon.eot?ch1nlz#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ch1nlz') format('truetype'),
+    url('fonts/icomoon.woff?ch1nlz') format('woff'),
+    url('fonts/icomoon.svg?ch1nlz#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+/*bodyer*/
+/*top*/
+/*myfocus*/
+.ad{
+	height: 300px;
+	width: 800px;
+	overflow: hidden;
+}
+.ad img{
+	width: 800px;
+}
+
+
+
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+li{
+	list-style: none;
+}
+#wrap{
+	width: 100%;
+	margin:0 auto;
+	background-color: #efecea;
+}
+#center{
+	width: 1200px;
+	margin:0 auto;
+	background-color: #fff;
+}
+.header{
+	height: 150px;
+	min-width: 1200px;
+	color: #e04462;
+}
+.bodyer{
+	width: 100%;
+	background-color: #efecea;
+}
+
+
+
+
+
+
+
+/*header*/
+/*menu*/
+.header .nav{
+	height: 50px;
+	width: 100%;
+	margin:0 auto;
+	text-align: center;
+	background-color: #334854;
+}
+.header .nav li{
+	display: inline-block;
+	line-height: 50px;
+	font-size: 18px;
+	margin: 0 25px;
+	letter-spacing: 1px;
+}
+.header .nav li a{
+	height: 47px;
+	display: inline-block;
+}
+.header .nav li a:hover{
+	color:#e04462;
+	display: inline-block;
+	border-bottom: 3px solid #e04462;
+}
+
+/*header*/
+/*show*/
+.show_all{
+	position: relative;
+	margin: 0 auto;
+	height: 100px;
+	width: 1200px;
+}
+.show{
+	display: block;
+    height: 100px;
+    width: 90px;
+    border: 2px solid #333;
+    border-radius: 10%;
+    background-color: #efecea;
+    text-align: center;	
+}
+.show1{
+	position: absolute;
+	left: 270px;
+}
+.show3{
+	position: absolute;
+    left: 795px;
+}
+.header .nav .show li{
+	margin: 0;
+	line-height: 28px;
+}
+.header .nav  .show li a{
+	display: block;
+    height: 28px;
+
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+.header .nav .show li a:hover{
+	color:#e04462;
+	border-bottom:0px;
+}
+
+
+
+/*header*/
+/*logo*/
+.header .logo_center{
+	width: 1200px;
+	height: 100%;
+	margin:0 auto;
+}
+.header #logo{
+	height: 100px;
+	width: 100%;
+	margin:0 auto;
+	background-color: #efecea;
+}
+.header #logo .title{
+	float: right;
+	width: 800px;
+	height: 100%;
+}
+.header #logo .logo{
+	float: left;
+	width: 400px;
+	height: 100%;
+}
+
+
+
+
+
+
+
+
+/*bodyer*/
+/*top*/
+.top{
+	width: 100%;
+	margin-bottom: 25px;
+}
+.top .myfocus{
+	width: 800px;
+	margin:0 auto;
+	background-color: #fff
+}
+
+
+
+/*bodyer*/
+/*middle*/
+/*part1*/
+.bodyer .middle .part1{
+	height: 550px;
+	width: 100%;
+}
+
+.bodyer .middle .part1 .part1_2{
+	float: right;
+	width: 400px;
+	height: 100%;
+	padding: 0 50px;
+}
+.bodyer .middle .part1 h2{
+	height:  50px;
+	line-height: 50px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: center;
+	color: #777;
+}
+
+
+.bodyer .middle .part1 .part1_1{
+	float: left;
+	width: 600px;
+	height: 100%;
+	padding: 0 50px;
+	background-color:rgba(167, 167, 167, 0.32);
+	overflow: hidden;
+	
+
+}
+.bodyer .middle .part1 .history_out{
+	overflow: hidden;
+	position: absolute;
+	margin: 0 auto;
+	height: 400px;
+	width: 600px;
+}
+.bodyer .middle .part1 .history{
+	height: 800px;
+	width: 100%;
+	margin: 0 auto;
+/*	background-color: #000;*/
+	position: relative;
+	top:0;
+	transition: top 4s ease-in-out;
+	text-align: center;
+}
+.bodyer .middle .part1 .history p{
+	margin: 10px;
+	letter-spacing: 0.5px;
+}
+.bodyer .middle .part1 .history b{
+	font-size: 16px;
+}
+.bodyer .middle .part1 .history .h_right_right p{
+	color: #334854;
+}
+.bodyer .middle .part1 .history .h_left_left p{
+	color: #e04462;
+}
+
+
+.bodyer .middle .part1 .history:hover{
+	top:-400px;
+}
+
+.bodyer .middle .part1 .history .h_left{
+	float: left;
+	width: 298px;
+	height: 100%;
+	border-right: 2px solid #000;
+}
+.bodyer .middle .part1 .history .h_left .h_left_right{
+	float: right;
+	width: 100px;
+	height: 100%;
+
+}
+.bodyer .middle .part1 .history .h_left .h_left_left{
+	float: left;
+	width: 198px;
+	height: 100%;
+}
+.bodyer .middle .part1 .history .h_right{
+	float: right;
+	width: 298px;
+	height: 100%;
+	border-left: 2px solid #000;
+}
+.bodyer .middle .part1 .history .h_right .h_right_left{
+	float: left;
+	width: 100px;
+	height: 100%;
+
+	margin: 50px 0;
+}
+.bodyer .middle .part1 .history .h_right .h_right_right{
+	float: right;
+	width: 198px;
+	height: 100%;
+}
+
+.bodyer .middle .part1 .history .h_left_right li,
+.bodyer .middle .part1 .history .h_right_left li{
+	height: 100px;
+	width: 100px;
+}
+.bodyer .middle .part1 .history .h_left_left li,
+.bodyer .middle .part1 .history .h_right_right li{
+	height: 120px;
+	width: 120px;
+	margin-bottom: 75px;
+	border-radius: 32%;
+}
+.bodyer .middle .part1 .history .h_left_left li{border: 4px solid #e04462;}
+.bodyer .middle .part1 .history .h_left_right .left_right_red{border-bottom: 4px solid #e04462;}
+.bodyer .middle .part1 .history .h_right_left .right_left_blue{border-top: 4px solid #334854;}
+.bodyer .middle .part1 .history .h_right_right li{border: 4px solid #334854;}
+.bodyer .middle .part1 .history .h_left_left ul{
+	float: right;
+	padding-top: 50px;
+}
+.bodyer .middle .part1 .history .h_right_right ul{
+	float: left;
+}
+
+.bodyer .middle .part1_2 .class_month{
+	width: 400px;
+	background-color: #334854;
+}
+.bodyer .middle .part1_2 .class_month li{
+	width: 20%;
+    float: left;
+    text-align: center;
+    background: #e04462;
+    margin: 10px 10px 0 10px;
+}
+.bodyer .middle .part1_2 .class_month li a{
+	color: #fff;
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 15px 0;
+}
+.bodyer .middle .part1_2 .class_month li a:hover{
+	background-color:#fff;
+	color: #334854;
+}
+
+.bodyer .middle .part1_2 .class_week{
+	width: 400px;
+	margin-top: 220px;
+	background-color: rgba(255, 255, 255, 0.54);
+}
+.bodyer .middle .part1_2 .class_week table{
+	border: 1px solid #fff;
+}
+.bodyer .middle .part1_2 .class_week table .tr_first{
+	background-color: #334854;
+	color: #fff;
+}
+.bodyer .middle .part1_2 .class_week tr{
+	border-bottom: 1px solid #fff;
+}
+.bodyer .middle .part1_2 .class_week td{
+	border: 1px solid #fff;
+	width: 48px;
+	font-size:15px;
+}
+
+/*bodyer*/
+/*middle*/
+/*part2*/
+.bodyer .middle .part2{
+	width: 100%;
+	margin-top: 20px;
+	position: relative;
+}
+.bodyer .middle .part2 h2{
+	color: #293047;
+	text-align: left;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+/*part2_1*/
+.bodyer .middle .part2 .part2_1{
+
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 400px;
+}
+.bodyer .middle .part2 .little_more{
+	margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #293047;
+    color: #293047;
+
+    text-align: center;
+    line-height: 30px;
+    font-family: -webkit-pictograph;
+}
+.bodyer .middle .part2 .little_more a{
+	color: #293047;
+    display: inline-block;
+    width: 100%;
+    font-size: 13px;
+    	letter-spacing: 1px;
+}
+.bodyer .middle .part2 .little_more:hover{
+	background-color: #293047;
+	border:1px solid #fff;
+}
+.bodyer .middle .part2 .little_more a:hover{
+	color: #fff;
+}
+.bodyer .middle .part2  .part_2_title{
+	padding: 10px 20px;
+}
+.bodyer .middle .part2  .part_2_container{
+    overflow: hidden;
+   margin: 10px;
+   height: 180px;
+   width: 380px;
+}
+
+.bodyer .middle .part2  .part_2_containers{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.23);
+}
+.bodyer .middle .part2 .part_2_1{
+	background-image: url(img/photos/1.jpg);
+}
+.bodyer .middle .part2  .containers_input{
+	position: absolute;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    border: 1px solid #fff;
+    font-family: -webkit-pictograph;
+    text-align: center;
+    line-height: 25px;
+    height: 25px;
+    width: 60px;
+}
+.bodyer .middle .part2  .containers_input:hover{
+	background-color: #aa2116;
+}
+.bodyer .middle .part2  .containers_title{
+	position: absolute;
+    bottom: 20px;
+    left: 30px;
+    margin-right: 20px;
+    font-family: "Microsoft Yahei";
+    letter-spacing: 2px;
+    color: #fff;
+}
+/*part2_2*/
+.bodyer .middle .part2 .part2_2{
+	margin:0 400px;
+	height: 100%;
+	width: 400px;
+}
+.bodyer .middle .part2 .part_2_2{
+	background-image: url(img/activities/20.jpg);
+}
+.bodyer .middle .part2 .part2_3{
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 100%;
+	width: 400px;
+}
+.bodyer .middle .part2 .part2_3 .toplist{
+	padding: 10px;
+
+}
+.bodyer .middle .part2 .part2_3 li{
+	text-align: left;
+}
+.bodyer .middle .part2 .part2_3 .toplist a{
+	font-size: 13px;
+	letter-spacing: 1px;	
+}
+.bodyer .middle .part2 .part2_3 .toplist a:hover{
+	text-decoration: underline;
+}
+.bodyer .middle .part2 .part2_3 span{
+	margin-right: 10px;
+}
+.toplist .icon-fire{
+	font-size:10px;
+	color: rgb(229, 76, 76);
+}
+.toplist .icon-power{
+	font-size:10px;
+	color: rgb(229, 223, 76);
+}
+.icon-fire:before {
+  content: "\e9a9";
+}
+.icon-power:before {
+  content: "\e9b5";
+}
+
+
+/*bodyer*/
+/*middle*/
+/*part3*/
+.bodyer .middle .part3{
+	width: 100%;
+	background-color: #EFEFEF;
+}
+.bodyer .middle .part3 .part3_title{
+	height: 20px;
+	margin: 20px 100px;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #293047;
+}
+.bodyer .middle .part3 .part3_title h2{
+	letter-spacing: 1px;
+}
+.bodyer .middle .part3_1,.bodyer .middle .part3_2{
+	position: relative;
+}
+.bodyer .middle .part3  a{
+    position: absolute;
+    bottom: 80px;
+    right: 40px;
+    color: #333;
+    border: 1px solid #333;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 25px 6px;
+}
+.bodyer .middle .part3  a:hover{
+	background-color: #293047;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.bodyer .middle .part3 .member{
+	height: 180px;
+	width: 1200px;
+}
+.bodyer .middle .part3 .member li{
+	height: 180px;
+	width: 190px;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+.bodyer .middle .part3 .member li img{
+	display: inline-block;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+.bodyer .middle .part3 .member li p{
+
+    font-size: 13px;
+    font-family: fantasy;
+}
+.bodyer .middle .part3{}
+
+
+
+
+/*bordyer*/
+/*bottom*/
+/*arron*/
+.arron{
+	height: 100px;
+	width: 100%;
+	padding:10px ;
+	line-height: 30px;
+	background-color: #aaa;
+}
+
+
+/*footer*/
+.footer{
+	min-width: 1200px;
+	background-color: #e04462;
+	color:#fff;
+	padding: 10px 0;
+	border-top: 3px solid #333; 
+	clear:both;
+}
+.footer_main{
+	margin:0 auto;
+	width: 1200px;
+}
+.footer li{
+	font-size: 15px;
+	letter-spacing: 1px;
+
+}
+.footer a{
+	font-size: 15px;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+.footer .f_nav{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+/*taekwondo1-1*/
+/*backto*/
+.backto{
+	text-align: left;
+	margin-left: 10px;	
+}
+.backto a{
+	font-size: 13px;
+	color: #bbb;
+}
+.backto a:hover{
+	text-decoration: underline;
+}
+
+
+
+.bodyer1_1 .top1_1 .introduction1_topic{
+	display: inline-block;
+    height: 100px;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-bottom: 3px solid #333;
+}
+.bodyer1_1 .top1_1 .introduction1_topic h1{
+	font-size: 35px;
+    letter-spacing: 5px;
+}
+
+
+#introduction1 .part1{
+	height: 500px;
+}
+#introduction1 .middle1 h2{
+	height:  50px;
+	margin-left: 20px;
+	line-height: 50px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	text-align: left;
+	color: #777;
+}
+#introduction1 .part1,#introduction1 .part2,#introduction1 .part3,#introduction1 .part4{
+	border-bottom: 1px solid #eee;
+	margin: 10px 25px;
+}
+#introduction1 .part_left{
+	width: 800px;
+	float: left;
+}
+#introduction1 .part_right{
+	float: right;
+	width: 350px;
+}
+#introduction1 .part_left img{
+	height: 300px;
+}
+#introduction1 .part_left .part_right_photo{
+	height: 200px;
+	width: 200px;
+}
+#introduction1 .part_right img{
+	width: 200px;
+	margin: 20px 100px 0 0;
+}
+.middle1 p{
+	font-size: 14px;
+    text-indent: 2em;
+    margin: 10px 50px 10px 50px;
+    letter-spacing: 1px;
+    font: 17px/35px "Microsoft Yahei";
+    color: #333;
+    text-align: justify;
+}
+
+/*taekwondo1-2*/
+ .middle1 video{
+	width: 400px;
+	margin:20px;
+}
+.part_video{
+	height: 100%;
+}
+
+
+/*taekwondo1-3*/
+#introduction1 .members_part{
+	height: 4000px;
+	    border-bottom: 1px solid #eee;
+    margin: 10px 25px;
+}
+#introduction1 .part_img{
+	width: 100%;
+	padding: 35px;
+}
+#introduction1 .part_img .img_box{
+	height: 300px;
+    width: 200px;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+    background-color: #eee;
+    margin:15px 10px;
+}
+#introduction1 .part_img h2{
+	clear: both;
+}
+#introduction1 .part_img .img_box img{
+	display: inline-block;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-top:10px;
+
+}
+#introduction1 .part_img .img_box p{
+	font: 15px/28px "Microsoft Yahei";
+	text-indent: 0em;
+	text-align: center;
+	margin:0px;
+	letter-spacing: 0px;
+	color: #999;
+}
+
+
+
+
+/*taekwondo2*/
+#taekwondo2 .part2{
+}
+#taekwondo2 .part2 h2,#taekwondo2 .part2_text p{
+	text-align: left;
+	width: auto;
+	
+}
+#taekwondo2 .part2 h2{
+	color: #333;
+	font-size: 18px;
+	margin:5px 100px 5px 25px;
+	padding: 5px 10px;
+}
+#taekwondo2 .part2_text h2{
+	border: 1px solid #eee;
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 3%;
+    background-color: #334854;
+    padding: 5px 30px;
+    color: #fff;
+}
+#taekwondo2 .part2_text span{
+	margin-left: 8px;
+	font-size: 14px;
+}
+
+
+.part_text .icon-circle-down{
+
+	background-color: #eee;
+}
+.icon-circle-down:before{
+	content: "\ea43"
+}
+.part_text .icon-circle-up{
+
+	background-color: #eee;
+}
+.icon-circle-up:before{
+	content: "\ea41"
+}
+
+/*taekwondo2*/
+/*.part2_1_text*/
+#taekwondo2 .part2_1_text{
+	padding: 5px 25px;
+}
+#taekwondo2 .part2_1_text p{
+	text-indent: 2em;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+}
+
+
+
+
+
+
+/*taekwondo3*/
+#taekwondo3 .middle1{
+	background-image: url(img/datas/1.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-size:auto 100% ;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+
+
+
+
+#taekwondo3 .middle1 .wrap{
+	background-color: rgba(0, 0, 0, 0.54);
+	height: 100%;
+}
+
+#taekwondo3 .middle1 .wrap .container1-1{
+	padding: 100px 135px;
+/*	width: 930px;*/
+}
+#taekwondo3 .middle1 .wrap .container1-1 h3{
+	text-align: left;
+}
+#taekwondo3 .middle1 .wrap .container1-1 .little_title{
+	padding: 20px 60px 20px 20px;
+}
+#taekwondo3 .middle1 .wrap .container1-1 .little_title a{
+	margin-right: 10px;
+	letter-spacing: 6px;
+	padding: 0 10px 4px 15px;
+	
+}
+#taekwondo3 .middle1 .wrap .container1-1 .little_title a:hover{
+	border-bottom: 2px solid #fff;
+}
+
+.container1-1 .little_title .icon-spinner2{
+	font-size:18px;
+	color: #fff;
+}
+.container1-1 .little_title .icon-fire{
+	font-size:18px;
+	color: rgb(229, 76, 76);
+}
+.icon-spinner2:before {
+  content: "\e97b";
+}
+
+
+#taekwondo3 .middle1 .wrap .container1-1 li{
+	margin-bottom: 10px;
+	border: 1px solid #fff;
+	height: 100px;
+	position: relative;
+}
+#taekwondo3 .middle1 .wrap .container1-1 li a{
+	font-size: 20px;
+	position: absolute;
+	left: 20px;
+	top: 10px;
+	letter-spacing: 2px;
+}
+#taekwondo3 .middle1 .wrap .container1-1 li a:hover{
+	text-decoration: underline;
+}
+#taekwondo3 .middle1 .wrap .container1-1 li .author{
+	display: inline-block;
+	font-size: 10px;
+	color: #E4E4E4;
+	font-style: italic;
+	position: absolute;
+	top: 45px;
+	left: 20px
+}
+#taekwondo3 .middle1 .wrap .container1-1 li .sub_title{
+	display: inline-block;
+	position: absolute;
+	right: 205px;
+	bottom: 5px;
+	color: #fff;
+}
+#taekwondo3 .middle1 .wrap .container1-1 li img{
+	height: 100px;
+	width: 200px;
+	position: absolute;
+	right: 0;
+	vertical-align:middle;
+}
+
+
+
+/*taekwondo3_1*/
+/*middle1*/
+#taekwondo3_1 .part_left{
+	width: 850px;
+	padding-bottom: 20px;
+	background-color: #fff;
+	float: left;
+}
+#taekwondo3_1 .part_left h2{
+	font-size: 20px;
+	margin: 20px;
+}
+#taekwondo3_1 .part_left h4{
+	font-size: 15px;
+	color: #ccc;
+	font-weight:normal;
+}
+#taekwondo3_1 .part_right{
+	float: right;
+	width: 350px;
+	background-color: #fff;
+	
+
+}
+#taekwondo3_1 .part_right li{
+	text-align: left;
+}
+#taekwondo3_1 .part_right a{
+	color: #333;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+#taekwondo3_1 .part_right a:hover{
+	text-decoration: underline;
+}
+#taekwondo3_1 .part_right .toplist{
+	margin:20px;
+}
+.toplist .toplist_title{
+	text-align: center;
+	font-size: 16px;
+}
+
+/*taekwondo4*/
+#taekwondo4 .middle1 .part1{
+	width: 1100px;
+	height: 375px;
+	margin:10px auto;
+	vertical-align: middle;
+}
+#taekwondo4 .middle1 .part1 img{
+	width: 15%;
+	line-height: 50px;
+}
+#taekwondo4 .middle1 .part1 img:hover{
+	animation: myfirst 1s;
+}
+
+@keyframes myfirst{
+	0%{width: 15%;}
+	100%{width:20%;}
+}
+
+#taekwondo4 h2{
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #334854;
+	width: 800px;
+	margin:10px auto;
+	padding: 10px;
+	border-bottom: 1px solid #eee;
+}
+.img400,.img300{
+	margin:15px 5px;
+	padding: 10px;
+	background-color: #eee;
+	float: left;
+		vertical-align: middle;
+}
+.img400{
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+.img300{
+	width: 200px;
+	height: 300px;
+	display: inline-block;
+}
+.img400 p,.img300 p{
+	margin: 0px;
+	font-size: 18px;
+	text-align: center;
+	letter-spacing: 1px;
+	text-indent: 0em;
+	font:18px/50px "Microsoft Yahei";
+	color: #fff;
+
+}
+#taekwondo4 .imgwrap{
+	height: 100%;
+}
+
+#taekwondo4 .imgmore{
+	height: 50px;
+	padding:10px 200px;
+
+}
+#taekwondo4 .imgmore a{
+	display: inline-block;
+	height: 35px;
+	line-height: 35px;
+	width: 100px;
+	color: #334854;
+	border:1px solid #334854;
+	text-align: center;
+}
+#taekwondo4 .imgmore a:hover{
+	background-color: #334854;
+	color: 	#fff;
+	border-bottom: 1px solid #fff;
+}
+#taekwondo4 .footer{
+	clear: both;
+}
+
+
+
+/*taekwondo5-1*/
+#taekwondo2 #center .newnotice .part2_1 h2{
+	background-color: #999;
+}
+
+
+
+/*taekwondo6*/
+/*taekwondo6*/
+#introduction1  #center .call_us p{
+	text-indent: 0em;
+}
+
+#introduction1  #center .call_us .part1{
+	height: 900px;
+	padding-top: 30px;
+}
+#introduction1  #center .call_us .part1 h2{
+	border-bottom: 1px solid #eee;
+}
+#introduction1  #center .call_us .part1 .part_left{
+	width: 500px;
+	padding-left: 50px;
+}
+#introduction1  #center .call_us .part1 .part_right{
+	width: 500px;
+}
+#introduction1  #center .call_us .part1 .part_right img{
+	width: 400px;
+	margin:0 auto;
+}
