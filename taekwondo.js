@@ -4,7 +4,7 @@ $(document).ready(function(){
 	$(".header").html("\
 		<div class=\"menu\">\
 			<ul class=\"nav\">\
-				<li ><a href=\"taekwondo.html\">首页</a></li>\
+				<li ><a href=\"index.html\">首页</a></li>\
 				<li class=\"s1\"><a href=\"\" onclick=\"return false\">社团介绍</a></li>\
 				<li ><a href=\"taekwondo2.html\">课程安排</a></li>\
 				<li ><a href=\"taekwondo3.html\">学习资料</a></li>\
@@ -36,7 +36,7 @@ $(document).ready(function(){
 		<div class=\"footer_main\">\
 		<ul>\
 		<li class=\"f_nav\">\
-					<a href=\"taekwondo.html\">网站首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
+					<a href=\"index.html\">网站首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
 					<a href=\"taekwondo1-1.html\">社团介绍</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
 					<a href=\"taekwondo2.html\">课程安排</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
 					<a href=\"taekwondo5-1.html\">最新公告</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
