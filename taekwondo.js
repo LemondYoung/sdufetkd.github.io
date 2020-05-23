@@ -42,7 +42,7 @@ $(document).ready(function(){
 					<a href=\"taekwondo5-1.html\">最新公告</a>&nbsp;&nbsp;|&nbsp;&nbsp;\
 					<a href=\"taekwondo6.html\">联系我们</a>\
 				</li>\
-				<li class=\"f_span\">Design&nbsp;And&nbsp;ReDevelop&nbsp;By&nbsp;Lemond&nbsp;Young</li>\
+				<li class=\"f_span\">Design&nbsp;And&nbsp;ReDevelop&nbsp;By&nbsp;He Zheng</li>\
 				<li class=\"f_span\">地址：济南市章丘区山东财经学院圣井校区东美食街北头尚武跆拳道馆</li>\
 				<li class=\"f_span\">CopyRight&nbsp;@&nbsp;2017&nbsp;山东财经大学跆拳道协会版权所有</li>\
 			</ul>\
